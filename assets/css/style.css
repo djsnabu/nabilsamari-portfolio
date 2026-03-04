@@ -1235,16 +1235,14 @@ html {
 }
 
 .main-hero-image-area {
-    background: url(../images/hero-image.jpg) no-repeat;
-    background-size: cover;
+    background: #000;
     z-index: 1;
     position: relative;
 }
 
-
 .main-hero-image-area:after {
     position: absolute;
-    background: rgba(0, 0, 0, .5);
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 40%, #16213e 70%, #0f3460 100%);
     left: 0;
     top: 0;
     width: 100%;
